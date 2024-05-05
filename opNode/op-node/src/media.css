@@ -1,0 +1,280 @@
+@media screen and (max-width: 1024px) {
+  #root header nav .nav-btn-ctn i {
+    @apply flex;
+  }
+
+  .menu .nav-btm {
+    @apply hidden;
+  }
+
+  nav .nav-right {
+    @apply hidden;
+  }
+
+  .home .hero-section .details {
+    @apply hidden;
+  }
+
+  .home .hero-section h1 {
+    @apply w-[85%] text-[40px];
+  }
+
+  .home .hero-section .description {
+    @apply w-[70%];
+  }
+
+  .ecosystem-section .ecosystem-img-ctn {
+    @apply w-[80%];
+  }
+
+  .about .about-det-ctn {
+    @apply w-[55%];
+  }
+
+  .about .about-det-ctn h2 {
+    @apply: text-[30px];
+  }
+
+  .features .section-description {
+    @apply w-[85%] text-3xl;
+  }
+
+  .commitment .commitment-card-ctn {
+    @apply gap-y-[50px];
+  }
+
+  .commitment-card-ctn .commitment-card {
+    @apply w-full;
+  }
+
+  .extra .extra-det {
+    @apply text-base;
+  }
+
+  .buy-section .buy-det-ctn {
+    @apply w-full lg:mb-10;
+  }
+
+  .buy-section .buy-card {
+    @apply w-full;
+  }
+
+  #root .faq {
+    @apply w-[90%];
+  }
+
+  .news .news-card-ctn {
+    @apply gap-y-[60px];
+  }
+
+  .news-card-ctn .news-card {
+    @apply w-full lg:h-fit;
+  }
+
+  .news-card-ctn .news-card img {
+    @apply h-[450px];
+  }
+
+  .news-card-det-ctn .news-det {
+    @apply pb-7;
+  }
+
+  .community-det-ctn img {
+    @apply hidden;
+  }
+
+  .community-det-ctn .community-det {
+    @apply w-full;
+  }
+
+  .community-det .community-header {
+    @apply text-xl;
+  }
+
+  .community .community-card-ctn {
+    @apply gap-y-10;
+  }
+
+  .community-card-ctn .community-card {
+    @apply w-full;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .about .about-det-ctn {
+    @apply w-full;
+  }
+
+  .about {
+    @apply gap-y-[60px];
+  }
+
+  .about .about-det-ctn h2 {
+    @apply text-[26px];
+  }
+
+  .about .about-illus {
+    @apply w-[50%] ml-[25%];
+  }
+
+  .features .features-card,
+  .features .features-card-normal {
+    @apply flex-wrap h-fit py-10 gap-y-10 px-8;
+  }
+
+  .features .card-det-ctn {
+    @apply w-full;
+  }
+
+  .features .features-card .card-image-ctn {
+    @apply w-full;
+  }
+
+  .card-image-ctn img {
+    @apply w-full;
+  }
+
+  #root .token {
+    @apply h-fit bg-none mt-[150px];
+  }
+
+  .token .token-description {
+    @apply w-full;
+  }
+
+  #root .token .section-details {
+    @apply w-full mb-10 ml-0;
+  }
+
+  .conclusion .conclusion-extra {
+    @apply gap-y-7;
+  }
+
+  .conclusion .extra {
+    @apply w-full;
+  }
+
+  .news .news-nav {
+    @apply flex-col items-start gap-y-7;
+  }
+
+  #root .news .news-card-ctn .news-card {
+    @apply h-fit;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #root footer {
+    @apply flex-col items-start gap-y-10;
+  }
+
+  footer .footer-right {
+    @apply items-start;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  header nav {
+    @apply px-8;
+  }
+
+  .ecosystem-section .ecosystem-img-ctn img {
+    @apply w-[120px] h-10;
+  }
+
+  .about .about-illus {
+    @apply w-[70%] ml-[15%];
+  }
+
+  .buy-det-ctn .address {
+    @apply text-base;
+  }
+}
+
+@media screen and (max-width: 478px) {
+  nav .nav-btn-ctn .nav-btm {
+    @apply hidden;
+  }
+
+  .home .hero-section {
+    @apply bg-cover;
+  }
+
+  .home .hero-section h1 {
+    @apply text-[27px] w-[98%] leading-9;
+  }
+
+  .home .hero-section .description {
+    @apply text-base w-[90%];
+  }
+
+  #root .ecosystem-section p {
+    @apply text-xs;
+  }
+
+  .ecosystem-section .ecosystem-img-ctn img {
+    @apply w-[120px] h-10;
+  }
+
+  .about .about-illus {
+    @apply w-[85%] ml-[7.5%];
+  }
+
+  .features .section-description {
+    @apply text-2xl w-[90%];
+  }
+
+  .card-det-ctn .card-header {
+    @apply text-xl;
+  }
+
+  .card-det-ctn .card-details {
+    @apply text-base;
+  }
+
+  .commitment .commitment-header {
+    @apply text-lg w-[90%];
+  }
+
+  #root .token .section-details,
+  #root .conclusion .conclusion-description {
+    @apply text-lg;
+  }
+
+  .buy-section .buy-det-ctn .buy-det {
+    @apply text-base;
+  }
+
+  .buy-section .buy-det-ctn .address {
+    @apply text-xs;
+  }
+
+  .faq-ctn .collapse {
+    @apply px-1;
+  }
+
+  .faq-ctn .collapse .collapse-title {
+    @apply text-base;
+  }
+
+  .faq-ctn .collapse .collapse-content {
+    @apply text-[13px];
+  }
+
+  .news-nav .news-link-ctn .join-tg,
+  .news-nav .news-link-ctn .blog {
+    @apply text-xs;
+  }
+
+  .news-card-ctn .news-card img {
+    @apply h-[300px];
+  }
+
+  .news-card-det-ctn .news-det {
+    @apply text-base;
+  }
+
+  #root .community {
+    @apply px-5;
+  }
+}
